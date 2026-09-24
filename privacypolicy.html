@@ -1,69 +1,185 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Kebijakan Privasi - Senter & SOS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kebijakan Privasi - Senter & SOS</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    line-height: 1.7;
+    color: #2b2b2b;
+    background: #fafafa;
+  }
+  header {
+    border-bottom: 3px solid #4f46e5;
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 26px;
+    margin: 0 0 6px;
+    color: #1a1a1a;
+  }
+  .updated {
+    font-size: 13px;
+    color: #777;
+  }
+  h2 {
+    font-size: 18px;
+    color: #4f46e5;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  h2 .num {
+    background: #4f46e5;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  p { margin: 10px 0; font-size: 15px; }
+  ul { margin: 10px 0; padding-left: 20px; }
+  li { margin-bottom: 6px; font-size: 15px; }
+  strong { color: #1a1a1a; }
+  a {
+    color: #4f46e5;
+    text-decoration: none;
+    word-break: break-all;
+  }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 12px 0;
+  }
+  .badge {
+    display: inline-block;
+    background: #eef2ff;
+    color: #4f46e5;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 13px;
+    color: #888;
+    text-align: center;
+  }
+</style>
 </head>
-<body style="font-family: sans-serif; max-width: 700px; margin: 40px auto; line-height: 1.6;">
-  <!-- Paste isi markdown di atas sebagai HTML, atau convert dulu -->
-  # Kebijakan Privasi — Senter & SOS
+<body>
 
-Terakhir diperbarui: 24 September 2026
+<header>
+  <span class="badge">SENTER &amp; SOS</span>
+  <h1>Kebijakan Privasi</h1>
+  <div class="updated">Terakhir diperbarui: 24 September 2026</div>
+</header>
 
-Aplikasi "Senter & SOS" ("kami", "aplikasi ini") dikembangkan oleh Anseb Studio. 
-Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi 
-informasi saat kamu menggunakan aplikasi ini.
+<p>
+  Aplikasi <strong>"Senter &amp; SOS"</strong> ("kami", "aplikasi ini") dikembangkan oleh
+  <strong>Anseb Studio</strong>. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan,
+  menggunakan, dan melindungi informasi saat kamu menggunakan aplikasi ini.
+</p>
 
-## 1. Informasi yang Kami Kumpulkan
+<h2><span class="num">1</span> Informasi yang Kami Kumpulkan</h2>
+<p>
+  Aplikasi ini sendiri <strong>tidak mengumpulkan, menyimpan, atau mengirimkan data pribadi</strong>
+  pengguna ke server kami. Aplikasi ini bekerja secara lokal di perangkat kamu.
+</p>
+<p>
+  Namun, aplikasi ini menggunakan layanan pihak ketiga (Google AdMob) untuk menampilkan iklan,
+  yang dapat mengumpulkan data berikut secara otomatis:
+</p>
+<div class="card">
+  <ul>
+    <li>Advertising ID</li>
+    <li>Informasi perangkat (model, sistem operasi, operator seluler)</li>
+    <li>Alamat IP</li>
+    <li>Data interaksi dengan iklan (klik, tayangan)</li>
+  </ul>
+</div>
 
-Aplikasi ini sendiri **tidak mengumpulkan, menyimpan, atau mengirimkan data pribadi** pengguna 
-ke server kami. Aplikasi ini bekerja secara lokal di perangkat kamu.
+<h2><span class="num">2</span> Izin Perangkat (Permissions)</h2>
+<p>Aplikasi ini meminta izin berikut:</p>
+<div class="card">
+  <ul>
+    <li>
+      <strong>Kamera (Camera)</strong>: digunakan hanya untuk mengakses lampu LED flash perangkat
+      sebagai fungsi senter. Aplikasi ini <strong>tidak</strong> mengambil foto, video, atau
+      menyimpan data apa pun dari kamera.
+    </li>
+    <li>
+      <strong>Akses Internet &amp; Status Jaringan</strong>: digunakan untuk memuat iklan dari
+      Google AdMob.
+    </li>
+  </ul>
+</div>
 
-Namun, aplikasi ini menggunakan layanan pihak ketiga (Google AdMob) untuk menampilkan iklan, 
-yang dapat mengumpulkan data berikut secara otomatis:
-- Advertising ID
-- Informasi perangkat (model, sistem operasi, operator seluler)
-- Alamat IP
-- Data interaksi dengan iklan (klik, tayangan)
+<h2><span class="num">3</span> Layanan Pihak Ketiga — Google AdMob</h2>
+<p>
+  Aplikasi ini menggunakan Google AdMob untuk menampilkan iklan (banner dan rewarded ads).
+  Google AdMob dapat mengumpulkan dan memproses data sesuai dengan kebijakan privasi mereka
+  sendiri. Untuk informasi lebih lanjut, silakan baca:
+</p>
+<div class="card">
+  <ul>
+    <li>Kebijakan Privasi Google: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+    <li>Cara Google menggunakan data dari aplikasi yang menggunakan layanan mereka: <a href="https://policies.google.com/technologies/partner-sites" target="_blank">policies.google.com/technologies/partner-sites</a></li>
+  </ul>
+</div>
+<p>
+  Kamu dapat mengatur preferensi iklan personalisasi melalui pengaturan akun Google kamu di:
+  <a href="https://adssettings.google.com" target="_blank">adssettings.google.com</a>
+</p>
 
-## 2. Izin Perangkat (Permissions)
+<h2><span class="num">4</span> Anak-anak</h2>
+<p>
+  Aplikasi ini tidak secara khusus ditujukan untuk anak-anak di bawah usia 13 tahun, dan kami
+  tidak dengan sengaja mengumpulkan data pribadi dari anak-anak.
+</p>
 
-Aplikasi ini meminta izin berikut:
-- **Kamera (Camera)**: digunakan **hanya** untuk mengakses lampu LED flash perangkat sebagai 
-  fungsi senter. Aplikasi ini **tidak** mengambil foto, video, atau menyimpan data apa pun 
-  dari kamera.
-- **Akses Internet & Status Jaringan**: digunakan untuk memuat iklan dari Google AdMob.
+<h2><span class="num">5</span> Keamanan Data</h2>
+<p>
+  Karena aplikasi ini tidak menyimpan data pribadi pengguna di server kami, risiko kebocoran data
+  dari sisi kami sangat minim. Data yang diproses oleh AdMob dilindungi sesuai standar keamanan
+  Google.
+</p>
 
-## 3. Layanan Pihak Ketiga — Google AdMob
+<h2><span class="num">6</span> Perubahan Kebijakan Privasi</h2>
+<p>
+  Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diumumkan
+  melalui pembaruan halaman ini.
+</p>
 
-Aplikasi ini menggunakan Google AdMob untuk menampilkan iklan (banner dan rewarded ads). 
-Google AdMob dapat mengumpulkan dan memproses data sesuai dengan kebijakan privasi mereka sendiri. 
-Untuk informasi lebih lanjut, silakan baca:
-- Kebijakan Privasi Google: https://policies.google.com/privacy
-- Cara Google menggunakan data dari aplikasi yang menggunakan layanan mereka: 
-  https://policies.google.com/technologies/partner-sites
+<h2><span class="num">7</span> Kontak</h2>
+<p>
+  Jika ada pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami di:
+  <a href="mailto:anseb719@gmail.com">anseb719@gmail.com</a>
+</p>
 
-Kamu dapat mengatur preferensi iklan personalisasi melalui pengaturan akun Google kamu di:
-https://adssettings.google.com
+<footer>
+  &copy; 2026 Anseb Studio — Senter &amp; SOS
+</footer>
 
-## 4. Anak-anak
-
-Aplikasi ini tidak secara khusus ditujukan untuk anak-anak di bawah usia 13 tahun, dan kami 
-tidak dengan sengaja mengumpulkan data pribadi dari anak-anak.
-
-## 5. Keamanan Data
-
-Karena aplikasi ini tidak menyimpan data pribadi pengguna di server kami, risiko kebocoran data 
-dari sisi kami sangat minim. Data yang diproses oleh AdMob dilindungi sesuai standar keamanan Google.
-
-## 6. Perubahan Kebijakan Privasi
-
-Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diumumkan 
-melalui pembaruan halaman ini.
-
-## 7. Kontak
-
-Jika ada pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami di:
-anseb719@gmail.com
 </body>
 </html>
